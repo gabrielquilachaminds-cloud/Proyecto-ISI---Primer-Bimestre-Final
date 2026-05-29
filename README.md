@@ -33,7 +33,7 @@ cd Proyecto-ISI---Primer-Bimestre-Final
 
 2. Ejecuta el programa:
 ```bash
-python tps_minimarket.py
+python MiniMarket.py
 ```
 
 3. Al iniciarse por primera vez, el sistema crea automáticamente los archivos `inventario.csv`, `transacciones.csv` y `detalles_venta.csv` en la misma carpeta.
