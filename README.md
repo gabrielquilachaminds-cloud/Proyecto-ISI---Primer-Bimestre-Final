@@ -27,13 +27,13 @@ python --version
 
 1. Descarga o clona este repositorio:
 ```bash
-git clone https://github.com/[tu-usuario]/tps-quickshop.git
-cd tps-quickshop
+https://github.com/gabrielquilachaminds-cloud/Proyecto-ISI---Primer-Bimestre-Final.git
+cd Proyecto-ISI---Primer-Bimestre-Final
 ```
 
 2. Ejecuta el programa:
 ```bash
-python tps_minimarket.py
+python MiniMarket.py
 ```
 
 3. Al iniciarse por primera vez, el sistema crea automáticamente los archivos `inventario.csv`, `transacciones.csv` y `detalles_venta.csv` en la misma carpeta.
@@ -154,13 +154,22 @@ El sistema incluye **55 productos** distribuidos en **7 categorías**:
 ## Estructura del proyecto
 
 ```
-tps-quickshop/
+MIS_QuickShop/
 │
-├── tps_minimarket.py       # Programa principal
-├── inventario.csv          # Catálogo y stock (generado automáticamente)
-├── transacciones.csv       # Registro de ventas (generado automáticamente)
-├── detalles_venta.csv      # Detalle de productos por venta (generado automáticamente)
-└── README.md               # Este archivo
+├── .ipynb_checkpoints/
+│   ├── MIS_QuickShop-checkpoint     # Respaldo automático de Jupyter
+│   └── Untitled-checkpoint.ipynb    # Respaldo automático del notebook
+│
+├── MIS_QuickShop                    # Archivo principal del proyecto
+├── MiniMarket.py                    # Programa principal del sistema
+├── README.md                        # Documentación del proyecto
+├── Untitled.ipynb                   # Notebook de pruebas o desarrollo
+├── dashboard_mis_quickshop.png      # Imagen del dashboard del sistema
+├── detalles_venta.csv               # Registro detallado de ventas
+├── inventario.csv                   # Control de inventario y stock
+├── productos.csv                    # Base de datos de productos
+├── transacciones.csv                # Historial de transacciones
+└── usuarios.csv                     # Información de usuarios
 ```
 
 ---
